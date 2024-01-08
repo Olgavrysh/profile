@@ -1,0 +1,90 @@
+*{
+  font-family: 'Quicksand', sans-serif;
+  font-family: 'Raleway', sans-serif;
+}
+
+section{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+body {
+  font-family:"Poppins", sans-serif;
+  text-align: center
+}
+
+.description{
+  line-height: 140% ;
+  margin-bottom: 16px;
+  color: #424243;
+}
+
+#photo_profile {
+  width: 200;
+  border-radius: 50%
+}
+
+ul {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.title {
+  font-size: 3rem;
+  color:00A9FF;
+  margin-bottom: 10px;
+}
+
+.profile_h2{
+  font-size: 1.75rem;
+  color:rgb(19, 20, 20);
+  margin-top: 10px;
+  margin-bottom: 8px;
+  color: #545657;
+}
+
+.button{
+  width: 200px;
+  font-size: 16px;
+  padding: 15px 0;
+  text-align: center;
+  margin: 20px 10px;
+  border-radius: 24px;
+  font-weight: bold;
+  border: 2px solid ;
+  background: transparent;
+  border-color: #CDF5FD;
+  color: #00A9FF;
+  cursor: pointer;
+  box-shadow: 0 4px 8px #CDF5FD;
+}
+
+.button:hover{
+  background: #00A9FF;
+  color: white;
+}
+
+
+#social_media {
+
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+#social_media i {
+  color: black ;
+}
+
+@media(max-width: 540px){
+  .title {
+    font-size: 4rem;
+  }
+
+}
